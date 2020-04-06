@@ -7,8 +7,8 @@ class Triangle
   end 
   def kind 
     if (@side1 <= 0 || @side2 <= 0 || @side3 <= 0)
-      raise 
-        TraiangleError 
+      raise TraiangleError 
+    elsif 
   end 
   
   class TraiangleError < StandardError 
